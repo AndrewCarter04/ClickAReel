@@ -1,3 +1,4 @@
+/* Copyright (c) 2023 Andrew Carter, Joey Payne, Katie O'Connor, Brennan Richmond, Ryan Palmer. All rights reserved. */
 // update the follow button every clickhttps://ClickAQR.katieapp2023.repl.co
 function changeFollow(id) {
   const follow = document.getElementById("follow" + id);
