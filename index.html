@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+<head>
+  <title>Click-A-Snap Presentation</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="topnav">
+  <!-- Centered link -->
+    <div class="searchBarCentered">
+      <!-- <a href="#home" class="active"><img class = "followButton" id="follow" src = "images/FollowButton.png" onclick="changeFollow();"> -->
+      <form>
+      <input type="text" class="searchBar" id="searchBar" placeholder="Search" size="40px" onkeypress="tagApplied();"></input>
+        </form>
+    </div>
+
+    <!-- Left-aligned links (default) -->
+  
+     
+     <div class="dropdown">
+        <a href="User" class="active"><img class = "user_logo" src = "images/Gernot.png"></a>
+        <div class="dropdown-content">
+            <img class="tierbutton" id="tierbutton1" src="images/Free.png" alt="free button" onclick="changeBackground(0);">
+            <img class="tierbutton" id="tierbutton2" src="images/U-Plus.png" alt="u-plus button" onclick="changeBackground(1);">
+            <img class="tierbutton" id="tierbutton3" src="images/Seller.png" alt="seller button" onclick="changeBackground(2);">
+            <img class="tierbutton" id="tierbutton4" src="images/Pro.png" alt="pro button" onclick="changeBackground(3);">
+        </div>
+      </div>
+    <a href="User" class="active"><img class = "username" src = "images/gernotUserName.png"></a>
+  </div>
+  
+
+  <div class="container">
+    
+    <section class="one">
+      <div class="sub-container">
+         <img class="reelImages" src="images/formattedCam.png" alt="Camera on stand with a sunset background">
+        <div class="overlay">
+          <img class="overlay_image" src ="images/qrcode.png" alt="QR code" id="QR0" onmouseover="showQRCode(0);"> 
+          <img class="social" src ="images/Twitter.png" alt="Twitter logo">
+          <img class="social" src ="images/Instagram.png" alt="Instagram logo">
+          <img class="social" src ="images/Facebook.png" alt="Facebook logo">
+          <img class="social" src ="images/linkbutton.png" alt="Link button logo">
+          <img class="emptylike" id="emptylike0" alt= "Like button" src = "images/emptylike.png" alt="like button logo"  onclick="changeLike(0);">
+        </div>
+         <div class="top_overlay">
+          <img class="iButton" src = "images/i.png" alt="info button" onclick="displayInfo(0);">
+        </div>
+
+       
+        
+      </div>
+      
+      <div class = "popup" id="popup0">
+        <div class = "popup_header">
+          <img class = "andrew" id="andrew1" src="images/Andrew.png">
+          <img class = "followButton" id="follow0" src="images/FollowButton.png" alt="follow button" onclick="changeFollow(0);">
+           <img class="xbutton" id="xbutton0" alt= "xbutton" src = "images/X.png" alt="xbutton" onclick="displayInfo(0);">
+        </div>
+        <h2 class="photoHeading">To Capture Serenity</h2>
+        <br>
+        
+        <p class=" photoPara">Hi Guys! On a wonderful trip to Cambodia! I took this stunning picture (I'm really proud of it). I hope you guys like it as much as I do! More pics of my trip on my profile!</p>
+        <br>
+        <p>Switching off my cellphone - if you want to contact me try 192.168.?.?</p>
+        <br>
+        
+        <p class="tags">#Camera #Sunrise #Cambodia </p>
+        <div class = "popup_footer">
+          <img class = "emoji" id="happyEmoji0" src="images/happy.png" atlt ="happy reaction" onclick="spinHappyEmoji(0)">
+          <img class = "emoji" id="shockedEmoji0" src="images/shocked.png" alt=" shocked reaction" onclick="spinShockedEmoji(0)">
+          <img class = "emoji" id="laughingEmoji0" src = "images/laughing.png" alt="laughing reaction" onclick="spinLaughingEmoji(0)">
+        </div>
+        
+      </div>
+     
+      
+    </section>
+     
+    <section class="two">
+      <div class="sub-container">
+        <img class="reelImages" src="images/formattedSpooder.png" alt="Spider-man portrait in black and white">
+        <div class="overlay">
+          <img class="overlay_image" src ="images/qrcode.png" alt="QR code" id="QR1" onmouseover="showQRCode(1);">
+          <img class="social" src ="images/Twitter.png" alt="Twitter logo">
+          <img class="social" src ="images/Instagram.png" alt="Instagram logo">
+          <img class="social" src ="images/Facebook.png" alt="Facebook logo">
+          <img class="social" src ="images/linkbutton.png" alt="Link button logo">
+          <img class="emptylike" id="emptylike1" alt="Like button" src = "images/emptylike.png" alt="like button logo"  onclick="changeLike(1);">
+        </div>
+
+        <div class="top_overlay">
+          <img class="iButton" src = "images/i.png" alt="info button" onclick="displayInfo(1);">
+        </div>
+
+      </div>
+      
+      <div class = "popup" id="popup1">
+        <div class = "popup_header">
+          <img class = "heather" src="images/Heather.png" alt="heather">
+          <img class = "followButton" id="follow1" src="images/FollowButton.png" alt="follow button" onclick="changeFollow(1);">
+           <img class="xbutton" id="xbutton0" alt= "xbutton" src = "images/X.png" alt="xbutton" onclick="displayInfo(1);">
+        </div>
+        <h2 class="photoHeading">Spider-Man!</h2>
+        <br>
+        
+        <p class=" photoPara">Like what you see? Purchase this and many more drawings like it from my website!</p>
+        <br>
+        
+        <p class="tags">#Marvel #Spiderman #Iron-Man #Thor #StanLee #Sketch #Art #Purchase #Commission #Creative</p>
+
+        <div class = "popup_footer">
+          <img class = "emoji" id="happyEmoji1" src="images/happy.png" atlt ="happy reaction" onclick="spinHappyEmoji(1)">
+          <img class = "emoji" id="shockedEmoji1" src="images/shocked.png" alt=" shocked reaction" onclick="spinShockedEmoji(1)">
+          <img class = "emoji" id="laughingEmoji1" src = "images/laughing.png" alt="laughing reaction" onclick="spinLaughingEmoji(1)">
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="three">
+      <div class="sub-container">
+        <img class="reelImages" src="images/babyyodasmall.png" alt="Baby yoda picture">
+        <div class="overlay">
+          <img class="overlay_image" src ="images/qrcode.png" alt="QR code" id="QR2" onmouseover="showQRCode(2);">
+          <img class="social" src ="images/Twitter.png" alt="Twitter logo">
+          <img class="social" src ="images/Instagram.png" alt="Instagram logo">
+          <img class="social" src ="images/Facebook.png" alt="Facebook logo">
+          <img class="social" src ="images/linkbutton.png" alt="Link button logo">
+          <img class="emptylike" id="emptylike2" src = "images/emptylike.png" alt="Like button logo"  onclick="changeLike(2);">
+        </div>
+
+        <div class="top_overlay">
+          <img class="iButton" src = "images/i.png" alt="info button" onclick="displayInfo(2);">
+        </div>
+        
+      </div>
+
+      <div class = "popup" id="popup2">
+        <div class = "popup_header">
+          <img src="images/Kevin.png" alt="kevin" class="kevin">
+          <img class = "followButton" id="follow2" src="images/FollowButton.png" alt="follow button" onclick="changeFollow(2);">
+           <img class="xbutton" id="xbutton0" alt= "xbutton" src = "images/X.png" alt="xbutton" onclick="displayInfo(2);">
+        </div>
+        <h2 class="photoHeading">Baby Yoda! OMG SO CUTE</h2>
+        <br>
+        
+        <p class=" photoPara">THIS IMAGE NEEDS TO TAKE OVER THE INTERNET!!!</p>
+        <p class="photoPara">I just finished binge watching the first season ready for the second and I LOVE Baby Yoda! Pedro Pascal is also phenomenal!</p>
+        <br>
+        
+        <p class="tags">#StarWars #PedroPascal #BabyYoda </p>
+
+        <div class = "popup_footer">
+          <img class = "emoji" id="happyEmoji2" src="images/happy.png" atlt ="happy reaction" onclick="spinHappyEmoji(2)">
+          <img class = "emoji" id="shockedEmoji2" src="images/shocked.png" alt=" shocked reaction" onclick="spinShockedEmoji(2)">
+          <img class = "emoji" id="laughingEmoji2" src = "images/laughing.png" alt="laughing reaction" onclick="spinLaughingEmoji(2)">
+        </div>
+        
+      </div>
+      
+    </section>
+
+    <section class="four">
+      <div class="sub-container">
+        <img class="reelImages" src="images/formattedCookies.png" alt="Plate of cookies">
+          <div class="overlay">
+            <img class="overlay_image" src ="images/qrcode.png" alt="QR code" id="QR3" onmouseover="showQRCode(3);">
+            <img class="overlay_image" src ="images/Twitter.png" alt="Twitter logo">
+            <img class="social" src ="images/Instagram.png" alt="Instagram logo">
+            <img class="social" src ="images/Facebook.png" alt="Facebook logo">
+            <img class="social" src ="images/linkbutton.png" alt="Link button logo">
+            <img class="emptylike" id="emptylike3" src = "images/emptylike.png" alt="Like button logo"  onclick="changeLike(3);">
+          </div>
+
+        <div class="top_overlay">
+          <img class="iButton" src = "images/i.png" alt="info button" onclick="displayInfo(3);">
+        </div>
+        
+      </div>
+
+      <div class = "popup" id="popup3">
+        <div class = "popup_header">
+          <img src="images/suzie.png" alt="suzie" class="suzie">
+          <img class = "followButton" id="follow3" src="images/FollowButton.png" alt="follow button" onclick="changeFollow(3);">
+           <img class="xbutton" id="xbutton0" alt= "xbutton" src = "images/X.png" alt="xbutton" onclick="displayInfo(3);">
+        </div>
+        <h2 class="photoHeading">Cookies!</h2>
+        <br>
+        
+        <p class=" photoPara">Just baked these scrumptious cookies! They taste as good as they look! Try it yourself:
+        <br>import java.util.oven
+        <br>Ingredients
+        <br>150g salted butter, softened;
+        <br>80g light brown muscovado sugar;
+        <br>80g granulated sugar;
+        <br>2 tsp vanilla extract;
+        <br>//two medium eggs will do
+        <br>1 large egg;
+        <br>225g plain flour;
+        <br>½ tsp bicarbonate of soda;
+        <br>¼ tsp salt;
+        <br>200g plain chocolate chips or chunks;
+        <br> bake();
+        </p>
+        <br>
+        
+        <p class="tags">#Baking #Cookies #YUM</p>
+        
+        <div class = "popup_footer">
+          <img class = "emoji" id="happyEmoji3" src="images/happy.png" atlt ="happy reaction" onclick="spinHappyEmoji(3)">
+          <img class = "emoji" id="shockedEmoji3" src="images/shocked.png" alt=" shocked reaction" onclick="spinShockedEmoji(3)">
+          <img class = "emoji" id="laughingEmoji3" src = "images/laughing.png" alt="laughing reaction" onclick="spinLaughingEmoji(3)">
+        </div>
+        
+      </div>
+    
+    </section>
+    
+    <section class="five">
+      <div class="sub-container">
+        <img class="reelImages" src="images/formattedBulb.png" alt="Coffee bulbasaur art">
+          <div class="overlay">
+            <img class="overlay_image" src ="images/qrcode.png" alt="QR code" id="QR4" onmouseover="showQRCode(4);">
+            <img class="social" src ="images/Twitter.png" alt="Twitter logo">
+            <img class="social" src ="images/Instagram.png" alt="Instagram logo">
+            <img class="social" src ="images/Facebook.png" alt="Facebook logo">
+            <img class="social" src ="images/linkbutton.png" alt="Link button logo">
+            <img class="emptylike" id="emptylike4" src = "images/emptylike.png" alt="Like button logo"  onclick="changeLike(4);">
+          </div>
+
+          <div class="top_overlay">
+            <img class="iButton" src = "images/i.png" alt="info button" onclick="displayInfo(4);">
+          </div>
+        
+      </div>
+      
+      <div class = "popup" id="popup4">
+        <div class = "popup_header">
+          <img src="images/Tim.png" alt="tim" class="tim">
+          <img class = "followButton" id="follow4" src="images/FollowButton.png" alt="follow button" onclick="changeFollow(4);">
+           <img class="xbutton" id="xbutton0" alt= "xbutton" src = "images/X.png" alt="xbutton" onclick="displayInfo(4);">
+        </div>
+        <h2 class="photoHeading">Cattuccino!</h2>
+        <br>
+        
+        <p class=" photoPara">Tokyo Trip! Just went into this super cute café and ALL the Coffee's come with this adorable Cat foam :D</p>
+        <br>
+        <p>PS: my daughter told me this is a bulbasaurus?</p>
+        <br>
+        <p class="tags">#Tokyo #Cat #ThisIsArt </p>
+        
+        <div class = "popup_footer">
+          <img class = "emoji" id="happyEmoji4" src="images/happy.png" atlt ="happy reaction" onclick="spinHappyEmoji(4)">
+          <img class = "emoji" id="shockedEmoji4" src="images/shocked.png" alt=" shocked reaction" onclick="spinShockedEmoji(4)">
+          <img class = "emoji" id="laughingEmoji4" src = "images/laughing.png" alt="laughing reaction" onclick="spinLaughingEmoji(4)">
+        </div>
+        
+      </div>
+      
+    </section>
+      
+</body>
+      
+</html>
+
