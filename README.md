@@ -1,7 +1,6 @@
 # ClickAReel
-March 2023 ClickASnap X Bournemouth University Hackathon Submission
-
-Authors: Andrew Carter, Joey Payne, Katie O'Connor, Ryan Palmer, Brennan Richmond
+## March 2023 ClickASnap X Bournemouth University Hackathon Submission
+### Authors: Andrew Carter, Joey Payne, Katie O'Connor, Ryan Palmer, Brennan Richmond
 
 Originally created in Replit for easier simultaneous collaboration.
 
