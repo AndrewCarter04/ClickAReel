@@ -5,4 +5,4 @@ Authors: Andrew Carter, Joey Payne, Katie O'Connor, Ryan Palmer, Brennan Richmon
 
 Originally created in Replit for easier simultaneous collaboration.
 
-Outcome - Teamwork award won - Various prizes (<u>Raspberry Pi + accessories</u>, Meccano set, toaster, Amazon vouchers)
+Outcome - Teamwork award won - Various prizes (<ins>Raspberry Pi + accessories</ins>, Meccano set, toaster, Amazon vouchers)
